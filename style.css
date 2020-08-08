@@ -1,0 +1,39 @@
+.main-container {
+    max-width: 100% !important;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0% /*removes the side ko white space that is there due to default padding option*/;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url(/images/black-board.jpg);
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  padding: 150px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 40px;
+}
+
+h1.title.toc-ignore{
+  max-width: 70%;
+  margin: auto;
+  display: none;
+}
+
+p{
+  max-width: 70%;
+  margin: auto;
+}
